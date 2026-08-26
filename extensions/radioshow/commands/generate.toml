@@ -1,0 +1,6 @@
+description = "Generate an AI late-night radio caller-in show podcast from a topic or text"
+prompt = """
+Generate a radio show:
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/radioshow_tool.py generate "{{args}}"}
+"""

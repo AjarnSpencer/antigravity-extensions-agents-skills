@@ -1,0 +1,6 @@
+description = "Generate an AI late-night radio caller-in show podcast analyzing a YouTube video URL"
+prompt = """
+Generate a radio show analyzing the YouTube video:
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py radioshow "{{args}}"}
+"""

@@ -1,0 +1,7 @@
+description = "Summarize a YouTube video"
+prompt = """
+Please summarize the following YouTube video transcript. Focus on the main points and key takeaways.
+
+Transcript:
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py transcript "{{args}}"}
+"""

@@ -1,0 +1,6 @@
+description = "Search YouTube for videos"
+prompt = """
+Search YouTube for "{{args}}":
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py search "{{args}}"}
+"""

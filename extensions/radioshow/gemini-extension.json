@@ -1,0 +1,7 @@
+{
+  "name": "radioshow",
+  "version": "1.0.0",
+  "description": "Generate AI late-night radio caller-in shows and podcasts from topics or raw text with customizable hosts and sound design.",
+  "author": "Ajarn Spencer",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+description = "Create an infographic prompt from a YouTube video"
+prompt = """
+I need to create an infographic based on this YouTube video.
+
+1. First, analyze the transcript below and extract the key data points, steps, or concepts.
+2. Then, write a detailed prompt for the /nanobanana:generate command to create a visual infographic representing this data.
+
+Transcript:
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py transcript "{{args}}"}
+"""

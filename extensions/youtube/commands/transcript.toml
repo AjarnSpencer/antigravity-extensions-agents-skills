@@ -1,0 +1,6 @@
+description = "Get transcript of a YouTube video"
+prompt = """
+Here is the transcript for the video:
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py transcript "{{args}}"}
+"""

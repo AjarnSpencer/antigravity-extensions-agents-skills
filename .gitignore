@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Audio outputs and media
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+
+# Antigravity and IDE caches
+.gemini/antigravity-cli/brain/
+.gemini/tts_model_cache.json
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Secrets & Environment variables
+.env
+*.pem
+*.key

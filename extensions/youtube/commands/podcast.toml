@@ -1,0 +1,6 @@
+description = "Create a podcast audio file from a YouTube video"
+prompt = """
+Generate a podcast from the video:
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py podcast "{{args}}"}
+"""

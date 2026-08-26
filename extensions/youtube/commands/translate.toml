@@ -1,0 +1,6 @@
+description = "Translate a YouTube video transcript"
+prompt = """
+Please translate the following YouTube video transcript into the specified language.
+
+!{${extensionPath}/venv/bin/python ${extensionPath}/scripts/yt_tool.py transcript "{{args}}"}
+"""
